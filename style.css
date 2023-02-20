@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+}
+ul li {
+    list-style: none;
+    display:inline-block;
+    float:left;
+    line-height:60px;
+    width: 25%;
+}
+ul li a {
+    text-decoration:none;
+    font-size:20px;
+    color:mediumaquamarine;
+    display: block;
+    padding:0 20px;
+    text-align:center;
+
+}
+
+nav{
+    background-color: aliceblue;
+    height:60px;
+
+}
+ul li a:hover{
+    background-color: brown;
+}
+.wrapper {
+    margin:0 auto;
+    width: 1000px;
+    background-color: white;
+
+
+    
+}
+body{
+    background-color: powderblue;
+}
+#logo{
+    float:left ;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    margin-bottom: 150px;
+}
