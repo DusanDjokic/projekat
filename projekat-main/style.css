@@ -43,7 +43,7 @@ body{
     width: 180px;
     height: 180px;
     margin-right: 20px;
-    margin-bottom: 150px;
+    margin-bottom: 10px;
 }
 p{
     text-align: justify;
@@ -51,6 +51,23 @@ p{
 }
 header p::first-letter{
     font-size: 40px;
+}
+figure{
+    margin-top:20px ;
+    margin-bottom: 20px;
+}
+figure img{
+    height: 30%;
+    width: 30%;
+    margin: 5px auto;
+    display: block;
+}
+ figcaption{
+    text-align: center;
+
+}
+main{
+    padding: 10px 10px;
 }
 
 
