@@ -7,7 +7,8 @@ ul li {
     display:inline-block;
     float:left;
     line-height:60px;
-    width: 25%;
+    width: 250px;
+    position: relative;
 }
 ul li a {
     text-decoration:none;
@@ -81,5 +82,12 @@ main{
     display: inline-block;
     padding: 0px 100px;
 }
-
+ul li ul{
+    display: none;
+    position: absolute;
+    background-color: aliceblue;
+}
+ul li:hover ul{
+    display: block;
+}
 
